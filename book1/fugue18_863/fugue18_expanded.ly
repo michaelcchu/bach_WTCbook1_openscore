@@ -32,7 +32,7 @@ soprano = \relative c'' {
   b8 dis16 cisis dis4 eis8 r cisis r | % m. 10
   dis8 eis fis4~ fis8 e!16 fis gis8 fisis16 gis | % m. 11
   ais8 gis16 ais b8 gis ais r fisis r | % m. 12
-  gis8 \once \override Accidental #'restore-first = ##t fis!16 e dis8 e fis r fis r | % m. 13
+  gis8 \once \override Accidental #'restore-first = ##t fis!16 e dis8 e fis r dis r | % m. 13
   e8 dis16 cis bis8 cis dis r bis r | % m. 14
   cis4 r r8 cis4 dis8 | % m. 15
   e4 dis cis2~ | % m. 16
@@ -221,7 +221,8 @@ bass = \relative c {
       { \clef bass \bass }
       
   >>
-  
+\midi {
+  }
 \layout { 
   indent = 0.0
   }

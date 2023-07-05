@@ -111,7 +111,7 @@ alto = \relative c' {
   des4 c8 bes c4 d! | % m. 8
   es2. des!8 c | % m. 9
   des4 es f2~ | % m. 10
-  f4 es8 des es2 | % m. 11
+  f4 es8 des es2~ | % m. 11
   es4 f8 es des4 c | % m. 12
   bes2. a!8 bes | % m. 13
   c4 a! bes c~ | % m. 14
@@ -441,7 +441,8 @@ bass = \relative c {
       { \clef bass \bass }
       
   >>
-  
+\midi {
+  }
 \layout {
   indent = 0.0
   }

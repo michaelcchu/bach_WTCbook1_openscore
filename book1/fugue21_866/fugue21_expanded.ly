@@ -47,7 +47,7 @@ soprano = \relative c' {
   a8 bes,16 c d8 d d d | % m. 24
   d16 c bes c d8 d d d | % m. 25
   d8 r r4 r16 es c es | % m. 26
-  d8 r r4 r16 f d f | % m. 27
+  f8 r r4 r16 f d f | % m. 27
   g8 r r b,!16 c d c b d | % m. 28
   c8 r r b!16 c d c b d | % m. 29
   c8 es d es c a' | % m. 30
@@ -197,7 +197,8 @@ bass = \relative c {
       { \clef bass \bass }
       
   >>
-  
+\midi {
+  }
 \layout {
   indent = 0.0
   }

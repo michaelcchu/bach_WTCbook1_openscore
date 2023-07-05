@@ -39,7 +39,7 @@ soprano = \relative c'' {
   b8 d4~ d8 cis fis~ fis e a~ | % m. 16
   a8 gis16 fis gis8~ gis fis e~ e dis fis | % m. 17
   b,4.~ b4 a8~ a gis4~ | % m. 18
-  gis8 fis a d, b' gis cis fis,4 | % m. 19
+  gis8 fis a dis, b' gis cis fis,4 | % m. 19
   e8 e' b cis fis cis d4.~ | % m. 20
   d8 b e cis fis d gis e a | % m. 21
   fis4 b8 e, a4~ a8 gis4 | % m. 22
@@ -192,7 +192,7 @@ bass = \relative c' {
   a8 a d cis a' d, b' e, cis' | % m. 49
   d16 cis b a gis fis e fis gis e d cis d cis d fis e d | % m. 50
   cis16 b a b cis a d cis d e cis d e d e fis d e | % m. 51
-  fis16 gis fis e d cis d e d cis a gis b a gis fis e d | % m. 52
+  fis16 gis fis e d cis d e d cis b a gis b a gis fis e | % m. 52
   fis16 a gis fis e d cis cis' d e fis gis a d, e8 e, | % m. 53
   \set Score.measureLength = #(ly:make-moment 6 8) a2. \fermata \bar "|." | % m. 54
    
@@ -215,7 +215,8 @@ bass = \relative c' {
       { \clef bass \bass }
       
   >>
-  
+\midi {
+}
 \layout {
   indent = 0.0 
   }

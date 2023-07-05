@@ -129,7 +129,7 @@ alto = \relative c' {
   R1 | % m. 20
   r8 fis' d b g' fis b ais! | % m. 21
   e dis c'! b fis eis d'! cis | % m. 22
-  bis cis a fis g2 | % m. 23
+  bis cis a fis gis2 | % m. 23
   a2~ a8 c! b dis! | % m. 24
   e2~ e8 d cis eis! | % m. 25
   fis4 r8 b,16 a! g a b8~ b a16 g | % m. 26
@@ -282,7 +282,7 @@ bass = \relative c {
   r8 fis d b g' (fis) b (ais) | % m. 9
   e8 (dis) c'! (b) fis (eis) d'! (cis) | % m. 10
   bis8 cis a fis gis2 | % m. 11
-  fis16 fis g! a b c! e, dis e dis g e ais b d,! cis! | % m. 12
+  fis16 fis g! a b c! e, dis e fis g e ais b d,! cis! | % m. 12
   d8 b fis'4~ fis fis | % m. 13
   e4 d! cis b~ | % m. 14
   b8 ais b4~ b16 cis d e fis g! b, ais | % m. 15
@@ -369,7 +369,8 @@ bass = \relative c {
       { \clef bass \bass }
       
   >>
-  
+\midi {
+  }
 \layout { 
   indent = 0.0
   }

@@ -32,7 +32,7 @@ soprano = \relative c'' {
   as2~ as16 as bes c des4~ | % m. 10
   des16 bes c es as g as bes c bes as g f g as c | % m. 11
   bes16 as g f es f g bes as g f es d! es f as | % m. 12
-  g16 f e! g f e f g c,8 f~ f g16 es | % m. 13
+  g16 f e! g f e f g c,8 f~ f g16 e | % m. 13
   f16 e! f g as2 g4~ | % m. 14
   g4 f2 e!4 | % m. 15
   f4~ f16 es! des c bes as g as bes des c bes | % m. 16
@@ -79,7 +79,7 @@ alto = \relative c'' {
   as4 r r2 | % m. 16
   R1 | % m. 17
   r4 f8 bes ges es c' a! | % m. 18
-  bes4 r16 f ges as! bes as ges f es f g bes | % m. 19
+  bes4 r16 f ges as! bes as ges f es f ges bes | % m. 19
   as16 ges f es des es f as ges f es des c des es ges | % m. 20
   f4 f8 bes g! es~ es as | % m. 21
   f8 d! r g as16 bes c bes as g f as | % m. 22
@@ -197,7 +197,8 @@ bass = \relative c {
       { \clef bass \bass }
       
   >>
-  
+\midi {
+  }
 \layout {
   indent = 0.0
   }

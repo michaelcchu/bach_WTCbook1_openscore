@@ -193,7 +193,8 @@ bass = \relative c {
       { \clef bass \bass }
       
   >>
-  
+\midi {
+  }
 \layout {
   indent = 0.0
   }
